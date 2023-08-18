@@ -20,12 +20,4 @@ struct PokemonModel: Decodable , Identifiable {
     
 }
  
-let PokemonList : [PokemonModel] = [
-    .init(id: 1, name: "ivysaur", imageUrl: "", type: "Poison", description: "", height: 5, weight: 5),
-    .init(id: 2, name: "Bulbasaur", imageUrl: "", type: "Poison", description: "", height: 5, weight: 5),
-    .init(id: 3, name: "ivysaur", imageUrl: "", type: "Poison", description: "", height: 5, weight: 5),
-    .init(id: 4, name: "ivysaur", imageUrl: "", type: "fire", description: "", height: 5, weight: 5),
-    .init(id: 5, name: "ivysaur", imageUrl: "", type: "fire", description: "", height: 5, weight: 5),
-    .init(id: 6, name: "ivysaur", imageUrl: "", type: "fire", description: "", height: 5, weight: 5),
-    .init(id: 7, name: "ivysaur", imageUrl: "", type: "Poison", description: "", height: 5, weight: 5)
-]
+
